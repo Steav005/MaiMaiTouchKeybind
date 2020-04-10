@@ -83,6 +83,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GlobalKeyboardHookEventArgs.cs" />
     <Compile Include="Keyboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,12 +116,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\RawInput\RawInput.csproj">
-      <Project>{4143d085-38cf-4640-bb05-2fdffaf94d76}</Project>
-      <Name>RawInput</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -23,3 +23,5 @@ RawInput/obj/Debug/RawInput.dll
 RawInput/bin/
 Keyboard/obj/
 Keyboard/bin/
+
+.vs/*
